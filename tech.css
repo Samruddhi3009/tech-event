@@ -1,0 +1,110 @@
+.sec1{
+    text-align: center;
+    color: black;
+    background-color: bisque;
+    width: 100%;
+}
+.main-box {
+    /* width: 600px;
+    height: 300px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inner-box{
+    width: 100px;
+    height: 150px;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.event-table th, .event-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.event-table thead {
+  background-color: #f7c59f;
+  color: #333;
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.event-table tr:hover {
+  background-color: #f1f1f1;
+}
+.apply-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ff944d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #ff7a1a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    top: 0;
+    z-index: 999;
+}
+
+
+.navbar .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff6600;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-left .logo {
+  height: 80px;
+  width: auto;
+}
